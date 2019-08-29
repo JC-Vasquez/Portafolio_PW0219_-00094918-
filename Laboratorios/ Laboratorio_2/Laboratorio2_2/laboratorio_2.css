@@ -88,16 +88,16 @@ button.btn.purple {
             -sky: Color de borde y texto -> #00BCD4
             -purple: Color de borde y texto -> #673AB7
     */
-button.btn.green.big {
-    color: white;
+button.btn.border.green {
+    color: #4CAF50;
     border-color: #4CAF50;
 }
-button.btn.purple.small{
+button.btn.border.purple{
     color: #673AB7;
     border-color: #673AB7;
 }
 
-button.btn.small.sky{
-    color: white;
+button.btn.border.sky{
+    color: #00BCD4;
     border-color: #00BCD4;
 }
