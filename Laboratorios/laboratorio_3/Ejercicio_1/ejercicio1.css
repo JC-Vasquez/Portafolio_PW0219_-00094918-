@@ -1,0 +1,112 @@
+body{
+    grid-gap: 5px;
+}
+
+.seccion1 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100% ;
+}
+
+#uno {
+    justify-content: center;
+    grid-column: 1/1;
+}
+
+.seccion2 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 14.29% 14.29% 14.29% 14.28% 14.28% 14.28% 14.29%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+#dos {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 5; 
+}
+#tres {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+}
+#cuatro {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+}
+#cinco {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3; 
+}
+
+
+#seis {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+}
+
+
+#siete {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5; 
+}
+#ocho {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5; 
+}
+#nueve {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5; 
+}
+#diez {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4; 
+}
+#once {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4; 
+}
+
+
+
+#doce {
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+
+
+.seccion3 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+}
+
+#catorce {
+    grid-column-start: 1;
+    height: 60px;
+}
+
+#quince {
+    grid-column-start: 2;
+    height: 60px;
+}
