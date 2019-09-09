@@ -1,32 +1,59 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 
 body {
-    background-image: url(http://k30.kn3.net/taringa/7/8/5/5/8/C/machinga22/6C6.jpg)
+    background-image: url(https://images2.alphacoders.com/532/532525.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 h1 {
     color: white;
     font-family: 'Lobster', cursive;
 }
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+button {
+    border-radius: 0.5em;
+    padding: 1em;
+    text-transform: uppercase;
+}
 
-button.uno {
-    color: white;
+
+.arriba {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.medio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abajo {
+    display: flex;
+    align-items: flex-end;
+}
+button#uno {
     background-color: rgb(92, 33, 107);
+    color: white;
+    border-color:  rgb(92, 33, 107);
 }
 
-button.dos{
-    color: white;
+button#dos{
     background-color: rgb(26, 35, 126);
+    color: white;
+    border-color: rgb(26, 35, 126);
 }
 
-button.tres{
-    color: white;
+button#tres{
     background-color: rgb(119, 25, 77);
+    color: white;
+    border-color: rgb(119, 25, 77);
 }
 
-
-
-
-button,.abajo {
+button#abajo {
     background-color: transparent;
-    color: white;
+    border-color: transparent;
 }
