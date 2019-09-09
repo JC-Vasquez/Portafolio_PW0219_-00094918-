@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+body {
+    background-image: url(http://k30.kn3.net/taringa/7/8/5/5/8/C/machinga22/6C6.jpg)
+}
+h1 {
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+button.uno {
+    color: white;
+    background-color: rgb(92, 33, 107);
+}
+
+button.dos{
+    color: white;
+    background-color: rgb(26, 35, 126);
+}
+
+button.tres{
+    color: white;
+    background-color: rgb(119, 25, 77);
+}
+
+
+
+
+button,.abajo {
+    background-color: transparent;
+    color: white;
+}
