@@ -1,9 +1,14 @@
-
+body {
+    background-color: rgb(16, 19, 26);
+}
+h1 {
+    color: white;
+}
 .seccion1 {
     display: grid;
     justify-content: center;
     grid-template-columns: 70% ;
-    grid-template-rows: 100px;
+    grid-template-rows: 125px;
     margin: 5px;
     padding: 5px;
     border: 5px;
@@ -14,13 +19,13 @@
 }
 #uno img {
     width: 100%;
-    height: 100px;
+    height: 125px;
 }
 .seccion2 {
     display: grid;
     justify-content: center;
-    grid-template-columns: 10% 5% 5% 14.28% 14.28% 14.28% 14.29%;
-    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 11% 6.5% 6.5% 10% 11% 11.75% 11.75%;
+    grid-template-rows: 75px 75px 75px 75px;
     margin: 5px;
     padding: 5px;
     border: 5px;
@@ -32,7 +37,7 @@
 }
 #dos img {
     width: 100%;
-    height: 150px;
+    height: 300px;
 }
 #tres {
     grid-column: 2/3;
@@ -40,7 +45,7 @@
 }
 #tres img {
     width: 100%;
-    height: 150px;
+    height: 75px;
 }
 #cuatro {
     grid-column: 3/4;
@@ -48,14 +53,14 @@
 }
 #cuatro img {
     width: 100%;
-    height: 150px;
+    height: 75px;
 }
 #cinco {
     grid-column: 4/5;
     grid-row: 1/3;
 }
 #cinco img {
-    width: 400%;
+    width: 450%;
     height: 150px;
 }
 #seis {
@@ -64,7 +69,7 @@
 }
 #seis img {
     width: 100%;
-    height: 150px;
+    height: 75px;
 }
 #siete {
     grid-column: 2/4;
@@ -88,7 +93,7 @@
 }
 #nueve img {
     width: 100%;
-    height: 150px;
+    height: 75px;
 }
 #diez {
     grid-column: 6/7;
@@ -96,7 +101,7 @@
 }
 #diez img {
     width: 100%;
-    height: 150px;
+    height: 75px;
 }
 #once {
     grid-column: 7/8;
@@ -104,7 +109,7 @@
 }
 #once img {
     width: 100%;
-    height: 150px;
+    height: 75px;
 }
 #doce {
     grid-column: 5/8;
@@ -112,13 +117,15 @@
 }
 #doce img {
     width: 100%;
-    height: 150px;
+    height: 75px;
 }
+
+
 .seccion3 {
     display: grid;
     justify-content: center;
     grid-template-columns: 35% 35%;
-    grid-template-rows: 100px;
+    grid-template-rows: 125px;
     margin: 5px;
     padding: 5px;
     border: 5px;
@@ -130,12 +137,12 @@
 }
 #catorce img {
     width: 100%;
-    height: 100px;
+    height: 125px;
 }
 #quince {
     grid-column: 2/3;
 }
 #quince img {
     width: 100%;
-    height: 100px;
+    height: 125px;
 }
