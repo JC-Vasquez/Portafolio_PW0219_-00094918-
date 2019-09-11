@@ -8,6 +8,7 @@ body {
 h1 {
     color: white;
     font-family: 'Lobster', cursive;
+    font-size: 50px;
 }
 a{
     color: rgb(255, 255, 255);
@@ -19,22 +20,35 @@ button {
     text-transform: uppercase;
 }
 
+hr {
+    height: 5px;
+    width: 35%;
+    background-color: white;
+  }
 
-.arriba {
+img {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
+
+section.arriba {
     display: flex;
     justify-content: flex-end;
 }
 
-.medio {
+section.medio {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
-.abajo {
+section.abajo {
     display: flex;
+    justify-content: space-between;
     align-items: flex-end;
 }
+
 button#uno {
     background-color: rgb(92, 33, 107);
     color: white;
@@ -53,7 +67,7 @@ button#tres{
     border-color: rgb(119, 25, 77);
 }
 
-button#abajo {
+button {
     background-color: transparent;
     border-color: transparent;
 }
