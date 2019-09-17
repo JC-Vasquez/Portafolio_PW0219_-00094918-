@@ -327,3 +327,7 @@ footer .social-links {
     }
 }
 
+ul#menu li:last-child a{
+    color: red;
+}
+
