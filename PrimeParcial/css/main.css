@@ -331,3 +331,22 @@ ul#menu li:last-child a{
     color: red;
 }
 
+ul.social-links li a i{
+    font-size: 2em;
+    padding: 0 20px;
+    color: white
+}
+a.hide-mobile.show-desktop{
+    font-size: 10em;
+    color: #0AC693;
+    margin-bottom: 50px ;
+}
+
+ul.social-links{
+    margin: 0px;
+    margin-bottom: -70px;
+}
+
+.big-hero p{
+    padding: 0px
+}
