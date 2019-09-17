@@ -1,0 +1,122 @@
+/*$color_primario: #007c91;
+$color_secundario: blue;
+$color_texto: #fff;
+
+
+$border_color: #111;
+$estilo_border: 1px $border_color;
+
+$margen: 8px;*/
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+/*no entendi el mixins*/
+body {
+  background-image: url(https://images2.alphacoders.com/532/532525.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: white;
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+}
+
+a {
+  color: #7cbdfa;
+  text-decoration: none;
+}
+
+button {
+  border-radius: 1em;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+hr {
+  height: 5px;
+  width: 35%;
+  background-color: white;
+}
+
+img {
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+}
+
+.arriba {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.medio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.abajo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+button#uno {
+  background-color: #5c216b;
+  border-color: #5c216b;
+  color: white;
+}
+
+button#dos {
+  background-color: #1a237e;
+  border-color: #1a237e;
+  color: white;
+}
+
+button#tres {
+  background-color: #77194d;
+  border-color: #77194d;
+  color: white;
+}
+
+button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/*
+.contenedor {
+    width: 100px;
+    height: 100px;
+
+    border: $estilo_border;
+    background-color: $color_primario;
+    color: $color_texto;
+
+    @include center-div();
+
+    p {
+            @include std-space($margen);
+    }
+
+    &:hover {
+        background-color: $color_secundario;
+    }
+}*/
+/*# sourceMappingURL=labo4.css.map */

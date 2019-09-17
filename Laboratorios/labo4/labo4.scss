@@ -1,0 +1,115 @@
+@import "variable";
+@import "mixins";
+/*no entendi el mixins*/
+body {
+    background-image: $fondo;
+    background-size: $tamaño_fondo;
+    background-attachment: fixed;
+}
+
+h1{
+    color: $color;
+    font-family: $tipo_letra;
+    font-size: $tam_letras_inicio;
+}
+
+a{
+    color: $color_link;
+    text-decoration: $relasaltado_link;
+}
+
+button {
+    border-radius: $diseño_borde;
+    padding: $padding;
+    text-transform: $text_boton;
+}
+
+hr {
+    height: $altohr;
+    width: $anchohr;
+    background-color: $color;
+  }
+
+img {
+    width: $anchoimg;
+    height: $altoimg;
+    border-radius: $img_redondo;
+}
+
+.arriba {
+    display: $flex;
+    justify-content: $final;
+
+    
+}
+
+.medio {
+    display: $flex;
+    justify-content: $medio;
+    align-items: $medio;
+}
+
+.abajo{
+    display: $flex;
+    justify-content: $abajo;
+    align-items: $final;
+}
+
+
+button#uno {
+    background-color: $b_color1;
+    border-color: $b_color1;
+    color: $color;
+}
+
+button#dos{
+    background-color: $b_color2;
+    border-color: $b_color2;
+    color: $color;
+}
+
+button#tres{
+    background-color: $b_color3;
+    border-color: $b_color3;
+    color: $color;
+}
+
+button {
+    background-color: $b_color4;
+    border-color: $b_color4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.contenedor {
+    width: 100px;
+    height: 100px;
+
+    border: $estilo_border;
+    background-color: $color_primario;
+    color: $color_texto;
+
+    @include center-div();
+
+    p {
+            @include std-space($margen);
+    }
+
+    &:hover {
+        background-color: $color_secundario;
+    }
+}*/
