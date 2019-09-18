@@ -326,27 +326,31 @@ footer .social-links {
         max-width: 1440px;
     }
 }
-
+/**/
 ul#menu li:last-child a{
     color: red;
 }
 
-ul.social-links li a i{
+ul.social-links li a i {
     font-size: 2em;
     padding: 0 20px;
-    color: white
+    color: white;
 }
-a.hide-mobile.show-desktop{
-    font-size: 10em;
+
+i{
+    font-size: 5em;
     color: #0AC693;
-    margin-bottom: 50px ;
+    padding: 0 0px;
+    margin-bottom: 50px;
 }
-
-ul.social-links{
+.social-links {
     margin: 0px;
-    margin-bottom: -70px;
+    margin-bottom: 0px;
+    padding: 0em;
 }
-
-.big-hero p{
+ul.social-links {
+    margin-bottom: -50px
+}
+.big-hero p {
     padding: 0px
 }
