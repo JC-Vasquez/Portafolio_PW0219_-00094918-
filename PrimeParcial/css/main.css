@@ -336,6 +336,7 @@ ul.social-links li a i {
     font-size: 2em;
     padding: 0 20px;
     color: white;
+    
 }
 
 i{
@@ -359,15 +360,8 @@ ul.social-links {
     padding: 0px
 }
 
-.contact-form input[type=submit] {
-    margin-bottom: 50px;
-    }
-
-.green-area article {
-    width: 300px;
-}
-
-@media screen and (min-width: 600px ) {
+/*Personalizacion para celulares*/
+@media only screen and (min-width: 600px ) {
     .bio-info, .contact {
         float: left;
         width: 50%;
@@ -382,18 +376,19 @@ ul.social-links {
     .bio-info {
         width: 50%;
     }
-
-    .contact-form input[type=submit] {
-        margin-bottom: 50px;
-        }
     
     .contact {
         width: 50%;
     }
     
     .contact-form input[type=submit] {
-    width: 40%;
+        margin-bottom: 50px;
+        }
+
+    .contact-form input[type=submit] {
+    width: 50%;
     }
+
 }
 
 
