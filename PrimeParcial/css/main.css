@@ -326,11 +326,12 @@ footer .social-links {
         max-width: 1440px;
     }
 }
-/**/
-ul#menu li:last-child a{
+/*cambiando el color de la etiqueta "a" con last-chiild, cuando se pone el maus encima*/
+ul#menu li:last-child a:hover{
     color: red;
 }
 
+/*modificando los enlaces de redes sociales de la seccion big-hero*/
 ul.social-links li a i {
     font-size: 2em;
     padding: 0 20px;
@@ -343,14 +344,57 @@ i{
     padding: 0 0px;
     margin-bottom: 50px;
 }
+
 .social-links {
     margin: 0px;
     margin-bottom: 0px;
     padding: 0em;
 }
+
 ul.social-links {
     margin-bottom: -50px
 }
+
 .big-hero p {
     padding: 0px
 }
+
+.contact-form input[type=submit] {
+    margin-bottom: 50px;
+    }
+
+.green-area article {
+    width: 300px;
+}
+
+@media screen and (min-width: 600px ) {
+    .bio-info, .contact {
+        float: left;
+        width: 50%;
+    }
+    
+    .about::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .bio-info {
+        width: 50%;
+    }
+
+    .contact-form input[type=submit] {
+        margin-bottom: 50px;
+        }
+    
+    .contact {
+        width: 50%;
+    }
+    
+    .contact-form input[type=submit] {
+    width: 40%;
+    }
+}
+
+
+
