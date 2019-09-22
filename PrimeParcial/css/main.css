@@ -64,7 +64,7 @@ p{
 .big-hero img {
     width: 150px;
 }
-
+/*diseño de los titulos ecundarios*/
 .big-hero h2 {
     font-size: 1.875em;
     font-weight: 700;
@@ -72,6 +72,7 @@ p{
     margin-top: 1em ;
 }
 
+/*diseño de los textos/parafos*/
 .big-hero p {
     font-size: 0.7em;;
     color: #D7DEE6;
@@ -89,7 +90,7 @@ p{
     align-items: center 
 
 }
-
+/*diseño origanl de las redes sociales*/
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
@@ -97,33 +98,34 @@ p{
     size: 5em
 }
 
-
+/*color de fondo del de la seccion about me*/
 .green-area {
     background-color: #0AC693; 
 }
 
-
+/*margen y relleno de la flecha*/
 .post {
     padding: 1em;
     margin-bottom: -2px;
 }
+/*dimencion y diseño del titulo secundario*/
 .post h2 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.125em;
     margin: 1em;
 }
-
+/*sin estilo*/
 .post ul {
     list-style: none;
 }
-
+/*altos y anchos maximos y los margenes de cada lista*/
 .post ul li {
     min-height: 300px;
     max-width: 350px;
     margin: 2rem auto;
 }
-
+/*alinacion y estilo de la caja de cada articulo*/
 .post ul li article {
     overflow: hidden;
     border-radius: 10px;
@@ -131,13 +133,13 @@ p{
     text-align: left;
     padding-bottom: 2em;
 }
-
+/*ancho y alto de las imagenes y con diseño en especifico*/
 .post article img{
     height: 150px;
     width: 100%;
     object-fit: cover;
 }
-
+/*diseño de los lorem de h3(esos que estan debajo de la imagen y arriba de los p)*/
 .post article h3 {
     color: #0D5061;
     margin-top: 2em;
@@ -147,7 +149,7 @@ p{
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
+/*diseño de los p de los articulos*/
 .post article p {
     color:#112935;
     font-size: 0.75em;
@@ -156,22 +158,22 @@ p{
 }
 
 /* About */
-
+/*margen superior*/
 .about{
     margin-top: 2em;
 }
-
+/*diseñp del h2*/
 .about h2 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.125em;
     margin: 2em;
 }
-
+/*ancho de las imagenes*/
 .bio-info img{
    width: 200px;
 }
-
+/*diseñp de los lorem*/
 .bio-info p{
     font-size: 16px;
     padding: 2em;
@@ -179,23 +181,23 @@ p{
     line-height: 25px;
     letter-spacing: 2px;
 }
-
+/*flexibilidad del formulario*/
 .contact {
     display: flex;
     flex-direction: column;
     text-align: left;
     padding: 0px 1em;
 }
-
+/*margen superior del formulario*/
 .contact * + * {
     margin-top: 1.5em;
 }
-
+/*etiqueta padre del formulario*/
 .contact-form {
     display: flex;
     flex-direction: column;
 }
-
+/*dimensiones de la caja del formulario*/
 .contact-form input, .contact-form textarea{
     padding: 1rem 2rem;
     border: none;
@@ -216,6 +218,7 @@ p{
  
 :-ms-input-placeholder { color: #D7DEE6; }
 
+/*diseño del boton de contactenos*/
 .contact-form input[type=submit] {
     background-color: #F74442;
     font-weight: 400;
@@ -226,16 +229,12 @@ p{
 .black-decoration{
     background-image: url("../images/decoracion_oscura_small.svg");
 }
-
+/*color de las letras y el fondo de pantalla del pie de pagina*/
 footer{
     background-color: #0D5061;
     color:#D7DEE6;
 }
-
-footer .social-links {
-    margin: 0;
-}
-
+/*diseño del menu*/
 .menu {
     background-color: #112935;
     position: absolute;
@@ -270,7 +269,7 @@ footer .social-links {
 i{
     margin-bottom: 50px;
 }
-
+/*el tamaño del margen que tiene que tener el boton contactar en todo momento*/
 .contact-form input[type=submit] {
     margin-bottom: 50px;
     }
