@@ -1,6 +1,3 @@
-let ocultar =() =>{
-    document.getElementById("todo").style.display = "none";
-}
 
 let mostrar_1 =() =>{
     document.getElementById("dia_1").style.display = "block";

@@ -19,28 +19,21 @@ header {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #0D5061;
     color:white;
     font-family: 'Courgette', cursive;
-    margin-top: 0px;
-    padding: 0px;
 }
 
 nav {
     display: flex;    
     justify-content: center;
-    margin: 0px;
-    padding: 0px;
     background-color: #1c3e50; 
 }
 
 .menu {
-    background-color: #1c3e50; 
     display: flex;
+    justify-content: center;
     font-family: 'Kalam', cursive;
     list-style: none;
-    text-align: left;
-    padding: 0em;
 }
 
 .menu li {
@@ -53,10 +46,51 @@ nav {
     text-decoration: none;  
     width: 60px;
     height: 30px;  
+    background-color: #1c3e50;
+    border-color: #295770;
 }
+
+main{
+        background-color: #112935;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+}
+
+main section {
+    background-color: rgb(50, 78, 129);
+    display: flex;
+    justify-content: center;
+}
+
+main section h2{
+    font-family: 'Shadows Into Light Two', cursive;
+    color: white;
+
+}
+
+main section article {
+    border-radius: 10px;
+    background-color: rgb(54, 46, 107);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+main section article img  {
+    height: 130px;
+    width: 80%;
+    object-fit: cover;
+}
+
+main section article p {
+    color:white;
+    font-size: 0.75em;
+    font-family: 'Architects Daughter', cursive;
+}
+
 footer{
     background-color: #0D5061;
-    color:#D7DEE6;
 }
 
 ul.social-links li a i {
@@ -73,48 +107,6 @@ ul.social-links li a i {
     justify-content: center;
 }
 
-main{
-        background-color: #112935;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-}
-
-main section {
-    background-color: rgb(50, 78, 129);
-    display: flex;
-    justify-content: center;
-}
-
-main section h2{
-    font-family: 'Shadows Into Light Two', cursive;
-
-}
-
-main section article {
-    border-radius: 10px;
-    background-color: rgb(54, 46, 107);
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-
-}
-
-main section article img  {
-    height: 100px;
-    width: 100%;
-    object-fit: cover;
-}
-
-main section article p {
-    color:white;
-    font-size: 0.75em;
-    font-family: 'Architects Daughter', cursive;
-    width: 100%;
-}
-
-button {
-    background-color: #1c3e50;
-    color: white;
-    border-color: #1c3e50;
+body{
+    background-color: #0D5061
 }
